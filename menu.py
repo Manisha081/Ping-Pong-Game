@@ -91,7 +91,7 @@ def options():
 	running = True
 	display.fill((0, 0, 0))
 	while running:
-		
+
 		for event in pygame.event.get():
 			if event.type == QUIT:
 				pygame.quit()
